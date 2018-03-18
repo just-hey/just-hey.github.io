@@ -1,0 +1,133 @@
+/* Your custom styles */
+
+.full-height,
+.full-height body,
+.full-height header,
+.full-height header .view,
+.full-height body .view {
+    height: 100%;
+    max-height: 100vh;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view,
+    .full-height body .view {
+        height: 700px;
+        max-height: 700px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1025px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view,
+    .full-height body .view {
+        height: 770px;
+        max-height: 770px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .view video {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+.carousel-caption {
+    height: 100%;
+    padding-top: 7rem;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    color: #1d1e1f;
+    /* background-color: #6c0d28; */
+    background-color: #a02040;
+}
+
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+
+.grouping {
+  height: 100vh;
+}
+
+#header {
+  padding-top: 5rem;
+
+  background-size: cover;
+  background-image: url("../img/svg/mountains2.jpg");
+  color: white;
+  height: 100vh;
+  background-attachment: fixed
+}
+
+#headshot {
+  height: 350px;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+  /* visibility: hidden; */
+}
+
+
+#myface {
+  padding-top: 6rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#words {
+  color: black;
+}
+
+.projIcon {
+  color: #1c2233;
+}
+
+.fa {
+  font-size: 4rem;
+}
+
+.fa:hover {
+  /* color: #bc00ba; */
+  color: #a02040;
+}
