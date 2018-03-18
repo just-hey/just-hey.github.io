@@ -72,7 +72,8 @@ footer.page-footer {
 .dropdown .dropdown-menu .dropdown-item:hover {
     color: #1d1e1f;
     /* background-color: #6c0d28; */
-    background-color: #a02040;
+    /* background-color: #a02040; */
+    background-color: #c70c6a;
 }
 
 .navbar .btn-group .dropdown-menu a:hover {
@@ -93,6 +94,7 @@ footer.page-footer {
   background-size: cover;
   background-image: url("../img/svg/mountains2.jpg");
   color: white;
+  text-shadow: 2px 2px #1c2233;
   height: 100vh;
   background-attachment: fixed
 }
@@ -129,5 +131,6 @@ footer.page-footer {
 
 .fa:hover {
   /* color: #bc00ba; */
-  color: #a02040;
+  /* color: #a02040; */
+  color: #f521b1;
 }
