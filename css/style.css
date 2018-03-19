@@ -89,8 +89,7 @@ footer.page-footer {
 }
 
 #header {
-  padding-top: 5rem;
-
+  /* padding-top: -3rem; */
   background-size: cover;
   background-image: url("../img/svg/mountains2.jpg");
   color: white;
