@@ -1,4 +1,7 @@
 /* Your custom styles */
+ul {
+  list-style-type: none;
+}
 
 .full-height,
 .full-height body,
