@@ -79,6 +79,10 @@ footer.page-footer {
     background-color: #c70c6a;
 }
 
+.sectionStart {
+    margin-top: 10rem;
+}
+
 .navbar .btn-group .dropdown-menu a:hover {
     color: #000 !important;
 }
