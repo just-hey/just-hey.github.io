@@ -12,7 +12,7 @@ ul {
     max-height: 100vh;
 }
 
-@media (max-width: 740px) {
+/* @media (max-width: 740px) {
     .full-height,
     .full-height body,
     .full-height header,
@@ -21,9 +21,9 @@ ul {
         height: 700px;
         max-height: 700px;
     }
-}
+} */
 
-@media (min-width: 1000px) and (max-width: 1025px) {
+/* @media (min-width: 1000px) and (max-width: 1025px) {
     .full-height,
     .full-height body,
     .full-height header,
@@ -32,39 +32,23 @@ ul {
         height: 770px;
         max-height: 770px;
     }
-}
-
+} */
+/* 
 @media (min-width: 1025px) {
     .view video {
         height: 100vh;
         width: 100%;
         object-fit: cover;
     }
-}
+} */
 
-.navbar {
-    background-color: transparent;
-}
-
-.scrolling-navbar {
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
-
-.top-nav-collapse {
+/* .top-nav-collapse {
     background-color: #1C2331;
-}
+} */
 
 footer.page-footer {
     background-color: #1C2331;
     margin-top: 0;
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #1C2331;
-    }
 }
 
 .carousel-caption {
@@ -83,13 +67,13 @@ footer.page-footer {
     margin-top: 10rem;
 }
 
-.navbar .btn-group .dropdown-menu a:hover {
+/* .navbar .btn-group .dropdown-menu a:hover {
     color: #000 !important;
 }
 
 .navbar .btn-group .dropdown-menu a:active {
     color: #fff !important;
-}
+} */
 
 .grouping {
   height: 100vh;
