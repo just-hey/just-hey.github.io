@@ -1,4 +1,3 @@
-/* Your custom styles */
 ul {
   list-style-type: none;
 }
@@ -12,75 +11,20 @@ ul {
     max-height: 100vh;
 }
 
-/* @media (max-width: 740px) {
-    .full-height,
-    .full-height body,
-    .full-height header,
-    .full-height header .view,
-    .full-height body .view {
-        height: 700px;
-        max-height: 700px;
-    }
-} */
-
-/* @media (min-width: 1000px) and (max-width: 1025px) {
-    .full-height,
-    .full-height body,
-    .full-height header,
-    .full-height header .view,
-    .full-height body .view {
-        height: 770px;
-        max-height: 770px;
-    }
-} */
-/* 
-@media (min-width: 1025px) {
-    .view video {
-        height: 100vh;
-        width: 100%;
-        object-fit: cover;
-    }
-} */
-
-/* .top-nav-collapse {
-    background-color: #1C2331;
-} */
-
 footer.page-footer {
     background-color: #1C2331;
     margin-top: 0;
 }
 
-.carousel-caption {
-    height: 100%;
-    padding-top: 7rem;
-}
-
-.dropdown .dropdown-menu .dropdown-item:hover {
-    color: #1d1e1f;
-    /* background-color: #6c0d28; */
-    /* background-color: #a02040; */
-    background-color: #c70c6a;
-}
-
 .sectionStart {
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
-
-/* .navbar .btn-group .dropdown-menu a:hover {
-    color: #000 !important;
-}
-
-.navbar .btn-group .dropdown-menu a:active {
-    color: #fff !important;
-} */
 
 .grouping {
   height: 100vh;
 }
 
 #header {
-  /* padding-top: -3rem; */
   background-size: cover;
   background-image: url("../img/svg/mountains2.jpg");
   color: white;
@@ -96,7 +40,6 @@ footer.page-footer {
 
 .hidden {
   display: none;
-  /* visibility: hidden; */
 }
 
 
@@ -120,7 +63,5 @@ footer.page-footer {
 }
 
 .fa:hover {
-  /* color: #bc00ba; */
-  /* color: #a02040; */
   color: #f521b1;
 }
